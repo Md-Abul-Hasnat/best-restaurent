@@ -1,0 +1,53 @@
+.dish {
+  color: var(--color-gray);
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.dish .dish-title {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+.dish p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 750px) {
+  .dish p {
+    font-size: 1rem;
+  }
+  .dish .dish-title {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dish p {
+    font-size: 0.8rem;
+  }
+  .dish .dish-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .dish p {
+    font-size: 1rem;
+  }
+  .dish .dish-title {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .dish p {
+    font-size: 0.9rem;
+  }
+  .dish .dish-title {
+    font-size: 1rem;
+  }
+}

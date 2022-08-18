@@ -1,0 +1,123 @@
+.feedback {
+  margin-top: 100px;
+  height: 120vh;
+  width: 100%;
+  position: relative;
+}
+
+.feedback-main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.feedback-main:nth-child(1) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../../img/img2.jpg");
+}
+
+.feedback .feedback-main:nth-child(2) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../../img/img3.jpg");
+}
+
+.feedback .feedback-main:nth-child(3) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../../img/img5.jpg");
+}
+
+.feedback-main .feedback-text {
+  text-align: center;
+  color: var(--color-white);
+  position: absolute;
+  top: 33%;
+  left: 0%;
+  padding: 0 100px;
+}
+
+.feedback-text h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.feedback-text h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 50px;
+}
+
+.feedback-text h1 span {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+  .feedback-text h1 {
+    font-size: 2rem;
+  }
+
+  .feedback-text h1 span {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .feedback-text h1 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+
+  .feedback-text h1 span {
+    font-size: 1.7rem;
+  }
+
+  .feedback-main .feedback-text {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feedback-text h1 {
+    font-size: 1.3rem;
+    margin-top: 30px;
+  }
+
+  .feedback-text h1 span {
+    font-size: 1.5rem;
+  }
+
+  .feedback-main .feedback-text {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .feedback-text h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .feedback-text h1 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  .feedback-text h1 span {
+    font-size: 1.2rem;
+  }
+}
